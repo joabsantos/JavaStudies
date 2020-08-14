@@ -10,6 +10,11 @@
 <title>Insert title here</title>
 </head>
 <body>
+	
+	<c:if test="${not empty empresa}">
+   		Empresa ${ empresa } cadastrada com sucesso!
+    </c:if>
+     <br/>
      Lista de Empresas:   
      <ul>
          <c:forEach items="${empresas}" var="empresa">                	            
