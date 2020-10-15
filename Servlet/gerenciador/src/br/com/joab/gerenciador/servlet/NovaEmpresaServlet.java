@@ -13,6 +13,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.joab.gerenciador.modelo.Banco;
+import br.com.joab.gerenciador.modelo.Empresa;
+
 /**
  * Servlet implementation class NovaEmpresaServlet
  */
